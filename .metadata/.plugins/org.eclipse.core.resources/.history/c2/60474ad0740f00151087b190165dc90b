@@ -1,0 +1,5 @@
+var path = process.argv.toString();
+
+var fs = require('fs');
+
+//fs.readdir()

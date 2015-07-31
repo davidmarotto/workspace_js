@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+	
+		<script type="text/javascript">
+		
+			console.log("hallo");
+		
+			window.onload = function() {
+			
+				var items = document.querySelectorAll('.items');
+				for (var i = 0, max = items.length; i < max ; i ++) {
+					console.log(i);
+				  var element = items[i];
+				  element.addEventListener('click', function() {
+				    console.log('you clicked on element number ' + i);
+				  });
+				}
+			
+			}
+
+		</script>
+	
+	</head>
+
+	<body>
+		
+		<div id="container">
+			<ul>
+				<li class="items">One</li>
+				<li class="items">Two</li>
+				<li class="items">Three</li>
+				<li class="items">Four</li>
+				<li class="items">Five</li>
+				<li class="items">Six</li>
+				<li class="items">Seven</li>
+				<li class="items">Eight</li>
+				<li class="items">Nine</li>
+				<li class="items">Nine</li>
+			
+			</ul>
+		
+		
+		</div>
+	
+	
+	</body>
+
+</html>
